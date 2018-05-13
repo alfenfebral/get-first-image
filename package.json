@@ -1,0 +1,15 @@
+{
+  "name": "get-first-image",
+  "version": "1.0.1",
+  "description": "Get first image in content",
+  "main": "get-first-image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "get-first-image"
+  ],
+  "author": "Alfen Febral <alfenfebral@gmail.com> (http://alfenfebral.com)",
+  "license": "ISC"
+}
