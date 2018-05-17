@@ -1,6 +1,6 @@
 {
   "name": "get-first-image",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Get first image in content",
   "main": "get-first-image.js",
   "scripts": {
@@ -11,5 +11,14 @@
     "get-first-image"
   ],
   "author": "Alfen Febral <alfenfebral@gmail.com> (http://alfenfebral.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Alfen/get-first-image.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Alfen/get-first-image/issues"
+  },
+  "homepage": "https://gitlab.com/Alfen/get-first-image#README",
+  "dependencies": {}
 }
