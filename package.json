@@ -1,24 +1,30 @@
 {
   "name": "get-first-image",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get first image in content",
-  "main": "get-first-image.js",
+  "main": "src/get-first-image.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "keywords": [
     "image",
     "get-first-image"
   ],
   "author": "Alfen Febral <alfenfebral@gmail.com> (http://alfenfebral.com)",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/Alfen/get-first-image.git"
+    "url": "git+https://github.com/alfenfebral/get-first-image"
   },
   "bugs": {
-    "url": "https://gitlab.com/Alfen/get-first-image/issues"
+    "url": "https://github.com/alfenfebral/get-first-image/issues"
   },
-  "homepage": "https://gitlab.com/Alfen/get-first-image#README",
-  "dependencies": {}
+  "homepage": "https://github.com/alfenfebral/get-first-image#readme",
+  "devDependencies": {
+    "jest": "^23.4.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
